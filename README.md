@@ -1,0 +1,2 @@
+# dummylog
+Generate dummy log.
