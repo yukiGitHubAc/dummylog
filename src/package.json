@@ -1,0 +1,17 @@
+{
+  "name": "nodejs_docker_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:access": "node ./index.js access_log",
+    "start:error": "node ./index.js error_log"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0"
+  }
+}
