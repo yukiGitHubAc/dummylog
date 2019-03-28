@@ -11,7 +11,7 @@ const main = () => {
       for (let n = 0; n < 10000; n++) {
         setTimeout(() => {
           access.writeToLog(ts.timestamp(logType));
-        },5000);
+        },50000);
       }
       break;
     case "error_log":
